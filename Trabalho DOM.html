@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Trabalho DOM.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 class="nome">Carlos Alberto</h1>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="traco1"></div>
+            <div class="traco2"></div>
+        </label>
+        <div class="menu">
+            <a href="#">Início</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </div>
+        <div class="linkhead">
+            <nav>
+                <ul>
+                    <div><a href="#">Início</a></div>
+                    <div><a href="#">Sobre</a></div>
+                    <div><a href="#">Contato</a></div>
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <main>
+        <div class="fotoD">
+            <div>
+                <figure>
+                <img src="./images/minha foto.jpg" alt="Foto minha com um aquário atrás" class="foto">
+                
+                </figure>
+            </div>
+            <div>
+                <h3 class="subtitulo">Sobre mim</h3>
+                <p class = "texto">Olà! Me chamo Carlos Alberto Santos da Anunciação Junior, nome um pouco longo mas ao menos facilita a lembra o nome do meu pai.
+                Eu moro no Rio de Janeiro no bairro da Tijuca, perto do Maracanã e das universidades UVA e UERJ.
+                Eu estudo Ciência da Computação na UFF(Universidade Federa Fluminense) em Niterói, meio longe da minha casa, fazendo com que ida e volta seja 4 horas de viagem, que acaba sendo um pouco cansativo, mas só por uma trilha de Senhor dos Anéis nos fones e imaginar que está numa longa aventura. 
+                Atualmente estou no 5° período da faculdade e com certeza não tem área melhor para mim, com algumas matérias muito interessantes e importantes( outras nem tanto) me fazem amar cada vez mais minha escolha péla área da tecnologia.
+                Estou em fase de treinamento na InJunior e estou muito animado com que posso aprender durante o treinamento e farei o possível para poder entrar nessa empressa que tanto admiro.
+                </p>
+            </div>
+            
+        </div>
+        
+        <div class="lista">
+            <div class="hobbies">
+                <h3>Hobbies</h3>
+                <div>
+                    <ul class="listaHobbies">
+                        <div><p>Videogame</p></div>
+                        <div><p>RPG</p></div>
+                        <div><p>Filmes</p></div>
+                        <div><p>Puzzle</p></div>
+                        <div><p>Programar</p></div>
+                    </ul>
+                </div>
+            </div>
+            <div class="jogos">
+                <h3>Melhores jogos</h3>
+                <ol class ="listaJogos">
+                    <li class="primeiro">
+                        <div><p>1</p></div>
+                        <p>Terraria</p>                    
+                    </li>
+                    <li class="segundo">
+                        <div><p>2</p></div>
+                        <p>Mario 64</p>
+                    </li>
+                    <li class="terceiro">
+                        <div><p>3</p></div>
+                        <p>Red Dead Redemption 2</p>
+                    </li>
+                    <li class="quarto"><p>God of War Ragnarok</p></li>
+                    <li class="quinto"><p>Valient Hearts</p></li>
+                </ol>
+            </div><br>
+        </div>
+        
+        <section class="Feedback">
+            <div class="campofeed">
+                <h2 class="textoFeed">Feedbacks</h2>
+                <div class="inputs">
+                    <input type="text" class="nomeinput" placeholder="Digite seu nome aqui"></input>
+                    <input type="text"  class="feedbackinput" placeholder="Dê um feedback para esse desenvolvedor!"></input>  
+                </div>
+                <div class="button"><button class="enviar">Enviar</button></div>
+                <div class="listafeedbacks"></div>
+            </div>    
+            
+            
+        </section>
+       
+        
+        <footer>
+            <nav class="linksfooter">
+                <a href="https://github.com/carlosjr04" target="_blank"> <img src="./Images/github.png" class="fotofooter" ></a>
+                <a href="https://www.instagram.com/eddd1n/"target="_blank"> <img src="./Images/instagram.png" class="fotofooter"></a>
+                <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"> <img src="./Images/facebook.png" class="fotofooter" ></a>
+                <a href="https://www.linkedin.com/in/carlos-alberto-j%C3%BAnior-88998b202/" target="_blank"> <img src="./Images/linkedin.png" class="fotofooter" ></a>
+            </nav>
+            <button class="butaoentrar">Entrar em contato</button>
+        </footer>
+        <script src="Trabalho DOM.js"></script>
+    </main>
+</body>
+</html>
